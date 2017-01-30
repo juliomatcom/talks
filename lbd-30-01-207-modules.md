@@ -1,6 +1,6 @@
 # Modules
 
-## MODULE PURPOSES
+### MODULE PURPOSES
 ### **What are JavaScript modules?** What is their purpose?
 - Definition: how to encapsulate a piece of code into a useful unit, and how to register its capability/export a value for the module.
 - Dependency References: how to refer to other units of code.   
