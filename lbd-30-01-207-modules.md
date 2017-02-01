@@ -106,5 +106,17 @@ The goal for ECMAScript 6 modules was to create a format that both users of Comm
     import _, { each } from 'underscore';
     ...
 ```
+
+Being built into the language allows ES6 modules to go beyond CommonJS and AMD (details are explained later):
+
+- Their syntax is even more compact than CommonJS’s.
+- Their structure can be statically analyzed (for static checking, optimization, etc.).
+- Their support for cyclic dependencies is better than CommonJS’s.
+
+##### The ES6 module standard has two parts:
+
+Declarative syntax (for importing and exporting)
+Programmatic loader API: to configure how modules are loaded and to conditionally load modules
+
 #### Docs
 - http://www.2ality.com/2014/09/es6-modules-final.html
