@@ -118,7 +118,7 @@ Being built into the language allows ES6 modules to go beyond CommonJS and AMD (
 Declarative syntax (for importing and exporting)
 Programmatic loader API: to configure how modules are loaded and to conditionally load modules
 
-#### Browserify
+### Browserify
 Browserify lets you `require('modules')` in the browser by bundling up all of your dependencies.  
 
 [A sample React App with no build configuration :fearful:](https://github.com/juliomatcom/react-babel-browserify-sample-app)
